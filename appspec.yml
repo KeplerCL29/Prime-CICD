@@ -5,6 +5,6 @@ files:
     destination: /home/ubuntu/prime
 hooks:
   ApplicationStart:
-    - location: scripts/start.sh
+    - location: scripts/prime.py
       timeout: 300
       runas: ubuntu
